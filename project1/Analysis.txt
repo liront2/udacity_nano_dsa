@@ -1,0 +1,37 @@
+Task0.py
+4 simple lines of code.
+getting from a list is still O(1)
+
+O(1) - to sum up
+
+Task1.py
+we have 2 loops O(n) and set.add with average time complexity of O(1)
+
+so to sum up:
+O(n)
+
+Task2.py
+we have dict.get() and access to a dictionary at several points inside loops.
+the worst case of dict.get() is O(n)
+
+so to sum up:
+O(n^2)
+
+Task3.py
+In both 3a and 3b, there are mainly linear loops O(n)
+3a uses sorted() which has O(n log n) complexity
+and set.add() with average time complexity of O(1)
+
+so to sum up:
+O(n log n)
+
+Task4.py
+n - are calls, k - are texts
+1 loop of O(n) with set.add() average complexity of O(1)
+1 loop of O(k) with 2 * set.add() average complexity of O(1)
+the difference between 2 sets is len of the 1st set, which means O(n)
+Sorted has O(n log n) complexity
+and the printing loop is O(n)
+
+so to sum up:
+O(n log n)
